@@ -5,6 +5,7 @@
     grid-template-rows: 1fr 1fr;
     padding-left: 6.4%;
     padding-right: 6.4%;
+    position: relative;
   }
 
   .email-input {
@@ -36,8 +37,8 @@
   .empty-input,
   .invalid-input {
     position: absolute;
-    bottom: 90%;
-    left: 5%;
+    bottom: 100%;
+    left: 10%;
     transform: translateY(10%) translateX(5%);
     color: #fb3e3e;
   }
