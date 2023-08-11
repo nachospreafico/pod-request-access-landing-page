@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Chivo;
+  background-color: #121725;
+}
+
+@font-face {
+  font-family: Chivo;
+  src: url("./assets/fonts/Chivo-Light.ttf");
+}
+
+@media only screen and (max-width: 767px) {
+  .bg-img-container {
+    position: absolute;
+    background-image: url("./assets/mobile/image-host.jpg");
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .overlay {
+    position: absolute;
+    background-color: #121725;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.9;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  body {
+    padding: 7% 0 7% 11.5%;
+    overflow: hidden;
+  }
+
+  .bg-img-container {
+    position: absolute;
+    background-image: url("./assets/tablet/image-host.jpg");
+    height: 100vh;
+    width: 63vw;
+    height: 74vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 0;
+  }
+
+  .bg-dots {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  body {
+    padding: 7% 0 7% 11.5%;
+    overflow: hidden;
+  }
+
+  .bg-img-container {
+    position: absolute;
+    background-image: url("./assets/desktop/image-host.jpg");
+    height: 100vh;
+    width: 62vw;
+    height: 71vh;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -15%;
+  }
+
+  .bg-dots {
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+  }
+}

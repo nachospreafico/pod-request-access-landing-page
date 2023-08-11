@@ -1,0 +1,142 @@
+@media only screen and (max-width: 767px) {
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 6.4%;
+    padding-right: 6.4%;
+  }
+
+  .email-input {
+    background-color: #2c344b;
+    border: none;
+    border-radius: 28px;
+    padding: 5% 10% 5% 10%;
+    color: white;
+    font-weight: 700;
+    font-family: Chivo;
+    opacity: 1;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+  }
+
+  .submit-btn {
+    border-radius: 28px;
+    background: #54e6af;
+    border: none;
+    color: #121725;
+    font-weight: 700;
+    padding: 5% 10% 5% 10%;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .empty-input,
+  .invalid-input {
+    position: absolute;
+    bottom: 90%;
+    left: 5%;
+    transform: translateY(10%) translateX(5%);
+    color: #fb3e3e;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  form {
+    position: relative;
+    display: grid;
+  }
+
+  .input-btn-container {
+    background-color: #2c344b;
+    border-radius: 28px;
+    height: auto;
+    padding: 0.5%;
+    padding-left: 2%;
+    display: grid;
+    grid-template-columns: 0.7fr 0.3fr;
+    width: 60%;
+  }
+
+  .email-input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: Chivo;
+    font-weight: 700;
+    height: fit-content;
+    align-self: center;
+  }
+
+  .submit-btn {
+    color: #121725;
+    background-color: #54e6af;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 28px;
+    font-weight: 700;
+  }
+
+  .submit-btn:hover {
+    background-color: #b3ffe2;
+  }
+
+  .empty-input,
+  .invalid-input {
+    position: absolute;
+    bottom: 90%;
+    left: 5%;
+    transform: translateY(10%) translateX(5%);
+    color: #fb3e3e;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  form {
+    position: relative;
+    display: grid;
+  }
+
+  .input-btn-container {
+    background-color: #2c344b;
+    border-radius: 28px;
+    height: auto;
+    padding: 0.5%;
+    padding-left: 2%;
+    display: grid;
+    grid-template-columns: 0.7fr 0.3fr;
+    width: 60%;
+  }
+
+  .email-input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: Chivo;
+    font-weight: 700;
+  }
+
+  .submit-btn {
+    color: #121725;
+    background-color: #54e6af;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 28px;
+    font-weight: 700;
+  }
+
+  .submit-btn:hover {
+    background-color: #b3ffe2;
+  }
+
+  .empty-input,
+  .invalid-input {
+    position: absolute;
+    bottom: 90%;
+    left: 5%;
+    transform: translateY(10%) translateX(5%);
+    color: #fb3e3e;
+  }
+}
